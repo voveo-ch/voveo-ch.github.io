@@ -163,7 +163,7 @@ strong {
   background: rgb(0, 0, 0);
   background-image: linear-gradient(to right, rgba(90, 157, 237, 1) 0%, rgba(83, 211, 224, 1) 50%, rgba(90, 157, 237, 1) 100%);
   border: 0;
-  color: #000000 !important;
+  color: #ffffff !important;
   transition: 0.5s;
   background-size: 200% auto;
 }
