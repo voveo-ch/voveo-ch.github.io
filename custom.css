@@ -173,6 +173,20 @@ strong {
   /* change the direction of the change here */
 }
 
+.btn-outline-success {
+  background: rgb(255, 255, 255);
+  background-image: linear-gradient(to right, rgba(255, 233, 77, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 233, 77, 1) 100%);
+  border: 0;
+  color: #000000 !important;
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+
+.btn-outline-success:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+}
+
 .btn-primary {
   background-color: #455a64 !important;
   border-color: #455a64 !important;
