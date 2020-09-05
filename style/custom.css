@@ -1,17 +1,11 @@
 @font-face {
   font-family: Basetica;
-  src: url("Basetica-Med.otf") format("opentype");
+  src: url("../fonts/Basetica-Med.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url("Roboto-Light.ttf") format("truetype");
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("Roboto-Regular.ttf") format("truetype");
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
 }
 
 body {
@@ -94,6 +88,13 @@ strong {
   padding: 0;
 }
 
+.footerbg {
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 156, 146, 1) 0%,
+    rgba(205, 113, 194, 1) 100%
+    );
+}
 .gradient {
   /*
   background: rgb(0, 0, 0);
