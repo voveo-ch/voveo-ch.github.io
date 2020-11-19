@@ -193,21 +193,8 @@ mark {
   /* change the direction of the change here */
 }
 
-.btn-outline-success {
-  color: #8e24aa;
-  border-color: #8e24aa;
-}
-
-.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active {
-  color: #fff;
-  background-color: #d81b60;
-  border-color: #8e24aa;
-}
-
-.btn-outline-success:hover {
-  color: #fff;
-  background-color: #d81b60;
-  border-color: #8e24aa;
+.btn-outline-light {
+  border: 0;
 }
 
 .btn-primary {
