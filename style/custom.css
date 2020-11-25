@@ -97,10 +97,6 @@ strong {
   padding: 0;
 }
 
-.footerbg {
-  background: #000;
-  background-image: linear-gradient(90deg, #8e24aa, #d81b60);
-}
 .gradient {
   /*
   background: rgb(0, 0, 0);
@@ -114,7 +110,7 @@ strong {
     rgba(136, 216, 72, 0.8) 100%
   );
   
-  background-image: url("img/header1.jpg");
+
  
 
   background: linear-gradient(45deg,
@@ -134,8 +130,23 @@ strong {
     rgba(205, 113, 194, 1) 0%,
     rgba(205, 113, 194, 0.5) 100%
     );
+
+     background-image: linear-gradient(90deg, #8e24aa, #d81b60);
      */
 
+  background-image: linear-gradient(90deg, #8e24aa, #d81b60);
+}
+
+.bgHeader {
+  background-image: url("../img/bg4.jpg"); 
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgFooter {
   background-image: linear-gradient(90deg, #8e24aa, #d81b60);
   height: 100%;
   background-position: center;
@@ -193,8 +204,21 @@ mark {
   /* change the direction of the change here */
 }
 
-.btn-outline-light {
-  border: 0;
+.btn-outline-success {
+  color: #8e24aa;
+  border-color: #8e24aa;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #d81b60;
+  border-color: #8e24aa;
+}
+
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #d81b60;
+  border-color: #8e24aa;
 }
 
 .btn-primary {
