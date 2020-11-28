@@ -10,44 +10,41 @@
   <meta name="author" content="Simon Buechi" />
   <title>Voveo</title>
   <link href="/style/bootstrap.min.css" rel="stylesheet" />
-  <link href="/style/custom2.css" rel="stylesheet" />
+  <link href="/style/custom.css" rel="stylesheet" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff9c92">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffffff">
   <meta name="apple-mobile-web-app-title" content="Voveo">
   <meta name="application-name" content="Voveo">
-  <meta name="msapplication-TileColor" content="#ff9c92">
-  <meta name="theme-color" content="#ff9c92">
+  <meta name="msapplication-TileColor" content="#8e24aa">
+  <meta name="theme-color" content="#8e24aa">
 </head>
 
 <body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">Voveo</a>>
-        <img alt="Brand" src="/img/logo-light.png" width="180" class="logo logoanimated my-4" />
-        </a>
-      </div>
+
+  <nav class="navbar sticky-top gradient">
+    <div>
+      &nbsp;
+    </div>
+    <div>
+      <a class="btn btn-outline-light" href="#home">Voveo</a>
+      <a class="btn btn-outline-light" href="#solutions"> Solutions</a>
+      <a class="btn btn-outline-light" href="#features">Features</a>
+      <a class="btn btn-outline-light" href="#about">About</a>
+    </div>
+    <div>
+      &nbsp;
     </div>
   </nav>
-  <div class="position-relative p-3 p-md-5 text-center gradient">
 
-    <nav class="navbar navbar-expand-md navbar-dark justify-content-center">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <span class="nav-link">English</span>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/de/">Deutsch</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/fr/">Francais</a>
-        </li>
-      </ul>
-    </nav>
-
+  <div class="position-relative p-3 p-md-5 text-center bgHeader" id="home">
+    <div class="col-md-12 m-2 text-light">
+      <a class="text-white" href="#" disabled>English</a> |
+      <a class="text-white" href="#" disabled> Deutsch</a> |
+      <a class="text-white" href="#" disabled>Francais</a>
+    </div>
     <div class="col-md-12 mx-auto my-5">
       <h1 class="text-light display-1">
         <img src="/img/logo-light.png" width="180" class="logo logoanimated my-4" />
@@ -60,53 +57,127 @@
         Backed by the Ethereum Blockchain
       </p>
     </div>
-    <div class="col-md-12 mx-auto my-5">
-      <a href="#" class="btn btn-lg btn-success" disabled>Run App Now</a>
-      &nbsp;
-      <a href="mailto:voveo.info@protonmail.com?subject=Voveo%20Demo" class="btn btn-lg btn-outline-light">Request
-        Demo</a>
-    </div>
-    <div class="col-md-12 mx-auto my-5">
-      &nbsp;
+    <div class="col-md-12 mx-auto py-5">
+      <a href="https://app.voveo.ch" class="btn btn-lg btn-success">Launch App</a>
+      <p class="text-light">
+        <small>alpha version</small>
+      </p>
     </div>
   </div>
 
-  <div class="container my-5">
+  <div class="container my-5" id="solutions">
     <div class="row">
       <div class="col-md-12 text-center my-5">
-        <h2 class="display-4">Product</h2>
+        <h2 class="display-4">Solutions</h2>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-        <h2 class="card-title">
-          Digital meetings
-        </h2>
-        <p>
-          Voveo is a blockchain based voting tool for annual general meetings (AGM) and other types of assemblies or
-          meeting.
-        </p>
+      <div class="col-md-12 text-center mb-5">
+        <h2>Voveo in a nutshell</h2>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-        <h2 class="card-title">
-          Quick & Simple
-        </h2>
-        <p>
-          Voveo runs on any device: desktop, tablet and mobile phones (iOS & Android). Set up your event with a few
-          clicks and accredit participants with personalized invitation codes.
-        </p>
+      <div class="col-md-4 col-12">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title">
+              What
+            </h2>
+            <p>
+              Voveo is a blockchain based voting tool including a video conferencing platform that 
+              enables to run annual general meetings (AGM) or other types of assemblies and meetings.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-        <h2 class="card-title">
-          Secure
-        </h2>
-        <p>
-          All polling is stored on the Ethereum blockchain - one of the most secure and immutable database.
-        </p>
+      <div class="col-md-4 col-12">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title">
+              How
+            </h2>
+            <p>
+              Combining the existing digital means and the blockchain technology, Voveo provides a simple, 
+              secure and anonymous way to vote or make decisions. By storing the polling result on the Ethereum 
+              blockchain, Voveo ensures its immutability from everyone including us and its accessibility to all.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title">
+              Why
+            </h2>
+            <p>
+              We believe that everyone has the universal right to participate in decisions-making anywhere and 
+              anytime without compromising his security and identity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row my-5">
+      <div class="col-md-12 text-center mb-5">
+        <h2>How does it work?</h2>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title">
+              As an organizer
+            </h2>
+            <hr />
+            <p class="card-text">
+              1)	Register with invitation code
+            </p>
+            <hr />
+            <p class="card-text">
+              2)	Access to uploaded documents
+            </p>
+            <hr />
+            <p class="card-text">
+              3)	Anonymous voting on the different topics
+            </p>
+            <hr />
+            <p class="card-text">
+              4)	Control opportunity of the authenticity of polling results
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title">
+              As an organizer
+            </h2>
+            <hr />
+            <p class="card-text">
+              1)	Set up your event in a few clicks
+            </p>
+            <hr />
+            <p class="card-text">
+              2)	Upload documents to share with the participants
+            </p>
+            <hr />
+            <p class="card-text">
+              3)	Accredit participants with personalized invitation codes
+            </p>
+            <hr />
+            <p class="card-text">
+              4)	Run your assembly and ask people to vote
+            </p>
+            <hr />
+            <p class="card-text">
+              5)	Automatic storage of polling results on the Ethereum blockchain
+            </p>
+            <hr />
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="row my-5">
-      <div class="col-md-12 text-center my-5">
-        <h2 class="display-4">Solutions</h2>
+      <div class="col-md-12 text-center mb-5">
+        <h2>Pricing</h2>
       </div>
       <div class="col-md-4">
         <div class="card">
@@ -116,22 +187,29 @@
             </h2>
             <hr />
             <p class="card-text">
-              Run your assembly on Ethereum testnet blockchain.
+              Run your assembly on Ethereum testnet blockchain
             </p>
             <hr />
             <p class="card-text">
-              Voveo web app for desktop, tablet and mobile phones (iOS & Android).
+              Voveo web app for desktop, tablet and mobile phones (iOS & Android)
             </p>
             <hr />
             <p class="card-text">
-              Up to 100 users.
+              Up to 100 users
             </p>
             <hr />
             <p class="card-text">
-              <mark>Free to use</mark>
+              FAQ Support
             </p>
             <hr />
-            <a href="#" class="btn btn-lg btn-success" disabled>Try now</a>
+            <p class="card-text">
+              <h3>Free to use</h3>
+            </p>
+            <hr />
+            <a href="https://app.voveo.ch" class="btn btn-lg btn-success">Try now</a>
+            <p class="text-muted">
+              <small>alpha version</small>
+            </p>
           </div>
         </div>
       </div>
@@ -143,19 +221,23 @@
             </h2>
             <hr />
             <p class="card-text">
-              Run your assembly on Ethereum mainnet blockchain.
+              Run your assembly on Ethereum mainnet blockchain
             </p>
             <hr />
             <p class="card-text">
-              Voveo web app for desktop, tablet and mobile phones (iOS & Android).
+              Voveo web app for desktop, tablet and mobile phones (iOS & Android)
             </p>
             <hr />
             <p class="card-text">
-              Unlimited number of users.
+              Unlimited number of users
             </p>
             <hr />
             <p class="card-text">
-              <mark>CHF 10 per user per assembly</mark>
+              Live Support
+            </p>
+            <hr />
+            <p class="card-text">
+              <h3>CHF 10 per user per assembly</h3>
             </p>
             <hr />
             <a href="mailto:voveo.info@protonmail.com?subject=Voveo%20Order" class="btn btn-lg btn-success">Order
@@ -183,7 +265,7 @@
             </p>
             <hr />
             <p class="card-text">
-              Custom setup. On-site support
+              Custom setup & On-site support
             </p>
             <hr />
             <p class="card-text">
@@ -191,7 +273,7 @@
             </p>
             <hr />
             <p class="card-text">
-              <mark>Custom pricing</mark>
+              <h3>Custom pricing</h3>
             </p>
             <hr />
             <a href="mailto:voveo.info@protonmail.com?subject=Voveo%20Custom" class="btn btn-lg btn-success">Get in
@@ -201,7 +283,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row" id="features">
       <div class="col-md-12 text-center my-5">
         <h2 class="display-4">Features</h2>
       </div>
@@ -213,30 +295,30 @@
             </h2>
             <hr />
             <p>
-              <mark>Onboarding</mark>
-              <br /> As a participant of an event, you just enter your access code. After the host accredits you, you're
+              <h3>Onboarding</h3>
+              As a participant of an event, you just enter your access code. After the host accredits you, you're
               ready and in. There is no user/password or seed phrase you need to write down or remember. It just takes a
               few
               seconds.
             </p>
             <hr />
             <p>
-              <mark>Hosting</mark>
-              <br /> Super simple administration. As an admin of an event or assembly, you easily accredit participants
+              <h3>Hosting</h3>
+              Super simple administration. As an admin of an event or assembly, you easily accredit participants
               and
               set up
               the agenda.
             </p>
             <hr />
             <p>
-              <mark>Accreditation</mark>
-              <br /> As a host of an event, you create an invitation code per participants which they will then use to
+              <h3>Accreditation</h3>
+              As a host of an event, you create an invitation code per participants which they will then use to
               accredit. This way you make sure no user signs on twice or any unwanted 3rd party is joining.
             </p>
             <hr />
             <p>
-              <mark>Disposable</mark>
-              <br /> We provide you with a secure yet disposable account. When using Voveo, we create a private/public
+              <h3>Disposable</h3>
+              We provide you with a secure yet disposable account. When using Voveo, we create a private/public
               keypair for you which is stored in
               your local browser. After an event, you decide whether you want to add this key to your wallet or just
               dispose
@@ -251,24 +333,24 @@
             </h2>
             <hr />
             <p>
-              <mark>Video</mark>
-              <br />
+              <h3>Video</h3>
+
               Run a video feed during your event. Share your screen or presentation. Make a video conference call with
               all
               participants. We integrate open-source software Jitsi.
             </p>
             <hr />
             <p>
-              <mark>Chat</mark>
-              <br />
+              <h3>Chat</h3>
+
               We offer video and text chat (integrated in Jitsi). This is seperated from the voting, which means that
               you
               can identify yourself on the video but still are private (aka pseudonymous) when you vote.
             </p>
             <hr />
             <p>
-              <mark>Minutes</mark>
-              <br />
+              <h3>Minutes</h3>
+
               After concluding an event, meeting minutes with the voting results are generated automatically and ready
               to
               be
@@ -276,8 +358,8 @@
             </p>
             <hr />
             <p>
-              <mark>Storage</mark>
-              <br />
+              <h3>Storage</h3>
+
               Stored on the blockchain forever and immutable. Since all data is on the blockchain, there is no
               need to keep a record on our your server.
             </p>
@@ -292,27 +374,27 @@
             </h2>
             <hr />
             <p>
-              <mark>Ethereum mainnet</mark>
-              <br /> Run on the Ethereum mainnet, one of the most secure databases in the world.
+              <h3>Ethereum mainnet</h3>
+              Run on the Ethereum mainnet, one of the most secure databases in the world.
             </p>
             <hr />
             <p>
-              <mark>Ethereum testnet</mark>
-              <br /> Voveo runs on Ethereum testnet, where it can be used for free. Be aware that the testnets do not
+              <h3>Ethereum testnet</h3>
+              Voveo runs on Ethereum testnet, where it can be used for free. Be aware that the testnets do not
               have
               the same
               security as the mainnet.
             </p>
             <hr />
             <p>
-              <mark>Ethereum PoA</mark>
-              <br /> Coming soon: Run on Proof of Authority blockchain. Fast, efficient and cheaper than the Ethereum
+              <h3>Ethereum PoA</h3>
+              Coming soon: Run on Proof of Authority blockchain. Fast, efficient and cheaper than the Ethereum
               mainnet.
             </p>
             <hr />
             <p>
-              <mark>Security</mark>
-              <br />
+              <h3>Security</h3>
+
               Whatever blockchain you choose, your event is secure. Your actions are signed with a private key that only
               exists on your local machine in the browser. Everything you do is securely deployed and stored in the
               blockchain.
@@ -326,28 +408,28 @@
             </h2>
             <hr />
             <p>
-              <mark>Privacy</mark>
-              <br /> Privacy by design. We do not include any 3rd party API
+              <h3>Privacy</h3>
+              Privacy by design. We do not include any 3rd party API
             </p>
             <hr />
             <p>
-              <mark>No tracking</mark>
-              <br />
+              <h3>No tracking</h3>
+
               There is no tracking, not by Voveo and not by any 3rd party. No 3rd party cookies and no Google Analytics.
               Because privacy matters.
             </p>
             <hr />
             <p>
-              <mark>Stay anonymous</mark>
-              <br />
+              <h3>Stay anonymous</h3>
+
               You decide whether you want to user personalized data or not. Of course, we accept crypto currencies
               (Bitcoin
               and Ether) for payments.
             </p>
             <hr />
             <p>
-              <mark>More to come</mark>
-              <br /> Are you missing something? Is there a feature you require? Feel free to ask.
+              <h3>More to come</h3>
+              Are you missing something? Is there a feature you require? Feel free to ask.
             </p>
             <hr />
             <p>
@@ -362,107 +444,115 @@
 
     <div class="row">
       <div class="col-md-12 text-center my-5">
-        <h2 class="display-4">Technology stack</h2>
+        <h2>Technology stack</h2>
       </div>
-      <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+      <div class="col-lg-3 col-md-3 col-6 text-center">
         <img src="/img/tech-stack/ethereum.jpg" width="100" />
         <p>Ethereum</p>
       </div>
-      <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+      <div class="col-lg-3 col-md-3 col-6 text-center">
         <img src="/img/tech-stack/webjs.jpg" width="100" />
         <p>web3.js</p>
       </div>
-      <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+      <div class="col-lg-3 col-md-3 col-6 text-center">
         <img src="/img/tech-stack/solidity.jpg" width="100" />
         <p>Solidity</p>
       </div>
-      <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+      <div class="col-lg-3 col-md-3 col-6 text-center">
         <img src="/img/tech-stack/react.jpg" width="100" />
         <p>React.js</p>
       </div>
     </div>
 
-    <div class="row">
+    <div class="row" style="display: none;">
       <div class="col-md-12 text-center my-5">
-        <h2 class="display-4">Support</h2>
+        <h2 class="display-4">FAQ</h2>
       </div>
       <div class="col-md-6">
         <p>
-          <mark>
+          <h3>
             Why are results written to the blockchain?
-          </mark>
-          <br />
+          </h3>
+
           The blockchain is a secure and immutable data record.
         </p>
+        <hr />
         <p>
-          <mark>
-            The blockchain is public, so is everything I do on Pacta Vote public?
-          </mark>
-          <br />
-          Basically yes. This means you should be careful of what you do with Pacta Vote. However, as long as you
+          <h3>
+            The blockchain is public, so is everything I do on Voveo public?
+          </h3>
+
+          Basically yes. This means you should be careful of what you do with Voveo. However, as long as you
           do not share any personal information, you are pseudonymous - there is a track record of your account, but
           no
           one knows which person this account belongs to.
         </p>
+        <hr />
         <p>
-          <mark>
+          <h3>
             How am I identified?
-          </mark>
-          <br />
+          </h3>
+
           The administrator hands out a personalized access code that you should not share with anybody
         </p>
+        <hr />
         <p>
-          <mark>
+          <h3>
             How can I revert/undo my vote/choice?
-          </mark>
-          <br />
+          </h3>
+
           You can't. That is why there is a confirmation. You may of course ask the administrator to invalidate
           the ballot and to repeat the vote.
         </p>
+        <hr />
         <p>
-          <mark>
+          <h3>
             What is my public key?
-          </mark>
-          <br />
-          When using Pacta Vote, a private and public key is being generated in the background. This is your
+          </h3>
+
+          When using Voveo, a private and public key is being generated in the background. This is your
           gateway to use the blockchain. With your public key, you can
         </p>
       </div>
       <div class="col-md-6">
         <p>
-          <mark>
+          <h3>
             What blockchain do you use?
-          </mark>
-          <br />
-          Pacta Vote runs on Ethereum and is connected to the Ethereum mainnet. However, we provide access to
+          </h3>
+
+          Voveo runs on Ethereum and is connected to the Ethereum mainnet. However, we provide access to
           other Ethereum-based blockchain, e.g. Ropsten testnet, PoA or your custom blockchain
         </p>
+        <hr />
         <p>
-          <mark>
+          <h3>
             Voting should be confidential. Can anyone see what I voted for?
-          </mark>
-          <br />
+          </h3>
+
           Your vote is treated confidentially. The blockchain records a) who has voted and b) how many
           yes/no-votes are cast - there is no record of what you have voted for.
         </p>
+        <hr />
         <p>
-          <mark>
-            What are these cryptic strings, e.g. 0x08dc456423e683eC2135640ba77b465197D9D212?
-          </mark>
-          <br />
+          <h3>
+            What are these cryptic strings, e.g. 0x08dc456423...?
+          </h3>
+
           Since everything runs on the blockchain, we use smart contracts. Every smart contracts has such an
           identifier. Your public key too is such a string. Don't worry, there is no need for you to remember or
           write
           down these strings.
         </p>
+        <hr />
         <p>
-          <mark>
+          <h3>
             My question is not listed here, what can I do?
-          </mark>
-          <br />
+          </h3>
+
           Our service is new and we are fully aware that there is yet a lot to
           be done. Please let us know how we can help you.
         </p>
+        <hr />
         <p>
           <a class="btn btn-success" href="mailto:voveo.info@protonmail.com?subject=Voveo%20Support">
             Request for Support
@@ -471,9 +561,9 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-md-12 text-center my-5">
-        <h2 class="display-4">Team</h2>
+    <div class="row" id="about">
+      <div class="col-md-12 text-center my-5 pt-5">
+        <h2 class="display-4">About</h2>
       </div>
       <div class="col-md-4 text-center">
         <img src="img/team/mauro.jpg" class="round m-2 mx-auto" width="200" />
@@ -520,8 +610,8 @@
     </div>
 
     <div class="row">
-      <div class="col-md-12 text-center my-5">
-        <h2 class="display-4">Partners</h2>
+      <div class="col-md-12 text-center mt-5">
+        <h2>Partners</h2>
       </div>
       <div class="col-lg-12 col-md-12 col-sm-12 text-center">
         <a href="https://big-swiss.com">
@@ -533,7 +623,7 @@
 
   </div>
 
-  <footer class="position-relative py-5 mt-5 footerbg">
+  <footer class="position-relative py-5 mt-5 bgFooter">
     <div class="col-md-12 text-center pb-5">
       <p class="text-light">
         Follow us
@@ -570,7 +660,7 @@
         </a>
       </p>
     </div>
-    <div class="col-md-12 text-center pb-5">
+    <div class="col-md-12 text-center py-5">
       <div class="eth">
         <div class="bottom">
           <div class="left"></div>
@@ -591,6 +681,9 @@
       <p class="text-light">
         Built and operated in Switzerland.
       </p>
+
+    </div>
+    <div class="col-md-12 text-center py-5">
       <p class="text-light"><small>
           No javascript, no cookies, no analytics. Privacy matters.
         </small></p>
