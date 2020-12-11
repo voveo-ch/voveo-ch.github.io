@@ -23,18 +23,6 @@ body {
   max-width: 960px;
 }
 
-strong {
-  font-weight: normal;
-}
-
-.
-
-.question {
-  padding: 4px;
-  background-color: #cfd8dc;
-  border-radius: 2px;
-}
-
 @keyframes logo-animated {
   0% {
     -webkit-transform: rotate(-165deg);
@@ -90,11 +78,6 @@ strong {
 .logo {
   max-width: 80%;
   margin-right: 5px;
-}
-
-.logonavbar {
-  margin: 0 20px 0 0;
-  padding: 0;
 }
 
 .gradient {
@@ -186,10 +169,6 @@ strong {
   line-height: 1;
 }
 
-mark {
-  background-color: rgba(205, 113, 194, 0.3) !important;
-}
-
 .btn-success {
   background: rgb(0, 0, 0);
   background-image: linear-gradient(to right, #00796b 0%, #26a69a 50%, #00796b 100%);
@@ -204,63 +183,6 @@ mark {
   /* change the direction of the change here */
 }
 
-.btn-outline-success {
-  color: #8e24aa;
-  border-color: #8e24aa;
-}
-
-.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active {
-  color: #fff;
-  background-color: #d81b60;
-  border-color: #8e24aa;
-}
-
-.btn-outline-success:hover {
-  color: #fff;
-  background-color: #d81b60;
-  border-color: #8e24aa;
-}
-
-.btn-primary {
-  background-color: #455a64 !important;
-  border-color: #455a64 !important;
-  color: #eceff1 !important;
-}
-
-.btn-primary:hover {
-  background-color: #37474f !important;
-  border-color: #37474f !important;
-  color: #eceff1 !important;
-}
-
-.btn-secondary {
-  background-color: #cfd8dc !important;
-  border-color: #cfd8dc !important;
-  color: #263238 !important;
-}
-
-.btn-secondary:hover {
-  background-color: #90a4ae !important;
-  border-color: #90a4ae !important;
-  color: #263238 !important;
-}
-
-.features-text {
-  margin: auto auto;
-}
-
-.bluegray600 {
-  color: #546e7a;
-}
-
-.bluegray500 {
-  color: #607d8b;
-}
-
-.bluegray400 {
-  color: #78909c;
-}
-
 h1,
 h2 {
   font-family: "Basetica", Roboto;
@@ -273,123 +195,23 @@ h3 {
   margin-bottom: 0;
 }
 
-.bg-main-img {
-  background-image: url("/img/big/highfive.jpg");
-  background-color: #263238;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-}
-
 /* 
   OVERLAY 
 */
-.overlayContainer {
-  position: relative;
-  background-color: #263238;
-}
-
-.overlayContainer img {
-  opacity: 1;
-  transition: 0.5s ease;
-  backface-visibility: hidden;
-}
-
-.middle {
-  transition: 0.5s ease;
-  opacity: 0;
-  color: #eceff1 !important;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  padding: 16px 32px;
-  border-radius: 4px;
-}
-
-.overlayContainer:hover img {
-  opacity: 0.5;
-}
-
-.overlayContainer:hover .middle {
-  opacity: 1;
-}
 
 /* 
   IMAGE HOVER 
 */
 
-.zoom {
-  overflow: hidden;
-}
-
-.zoom img {
-  transform: scale(1.2);
-  -webkit-transition: transform 0.4s ease;
-  transition: transform 0.4s ease;
-}
-
-.zoom:hover img {
-  transform: scale(1);
-}
-
 /* 
   DROPDOWN 
 */
-.navbar-toggler {
-  position: relative;
-  display: inline-block;
-  padding: 20px;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #ffffff;
-  -webkit-animation: swing-in-top-fwd 0.45s ease-out both;
-  animation: swing-in-top-fwd 0.45s ease-out both;
-  text-align: left;
-  min-width: 120px;
-  box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.8);
-  padding: 12px 16px;
-  z-index: 1;
-  right: 0;
-  top: 50px;
-}
-
-.navbar-toggler:hover .dropdown-content {
-  display: block;
-}
-
-.btn.btn-link {
-  color: #37474f;
-}
 
 /**
  * ----------------------------------------
  * animation swing-in-top-fwd
  * ----------------------------------------
  */
-@-webkit-keyframes swing-in-top-fwd {
-  0% {
-    -webkit-transform: rotateX(-100deg);
-    transform: rotateX(-100deg);
-    -webkit-transform-origin: top;
-    transform-origin: top;
-    opacity: 0;
-  }
-
-  100% {
-    -webkit-transform: rotateX(0deg);
-    transform: rotateX(0deg);
-    -webkit-transform-origin: top;
-    transform-origin: top;
-    opacity: 1;
-  }
-}
 
 @keyframes swing-in-top-fwd {
   0% {
@@ -412,14 +234,6 @@ h3 {
 /*
   Gradient Titles
 */
-.gradienttitle {
-  background-image: linear-gradient(90deg,
-  rgba(205, 113, 194, 1) 0%,
-  rgba(83, 211, 224, 1) 100%);
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-}
 
 .display-4 {
   background-image: linear-gradient(90deg, #8e24aa, #d81b60);
@@ -466,11 +280,6 @@ h3 {
   transform-style: preserve-3d;
   position: absolute;
   animation: rotate 10s linear infinite;
-}
-
-.eth.click .top,
-.eth.click .bottom {
-  animation: rotate 1s linear infinite;
 }
 
 .eth .top .left,
