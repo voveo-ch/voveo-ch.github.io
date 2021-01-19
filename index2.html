@@ -9,8 +9,8 @@
     content="Voveo, Ethereum, Smart Contract, Smart Contracts, association, voting, vote, Simon Büchi" />
   <meta name="author" content="Simon Buechi" />
   <title>Voveo</title>
-  <link href="/style/bootstrap.min.css" rel="stylesheet" />
-  <link href="/style/custom.css" rel="stylesheet" />
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/custom.css" rel="stylesheet" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -41,9 +41,9 @@
 
   <div class="position-relative p-3 p-md-5 text-center bgHeader" id="home">
     <div class="col-md-12 m-2 text-light">
-      <a class="text-white" href="#" disabled>English</a> |
-      <a class="text-white" href="#" disabled> Deutsch</a> |
-      <a class="text-white" href="#" disabled>Francais</a>
+      <a class="text-white" href="/">English</a> |
+      <a class="text-white" href="/de"> Deutsch</a> |
+      <a class="text-white" href="/fr">Français</a>
     </div>
     <div class="col-md-12 mx-auto my-5">
       <h1 class="text-light display-1">
@@ -58,7 +58,7 @@
       </p>
     </div>
     <div class="col-md-12 mx-auto py-5">
-      <a href="https://app.voveo.ch" class="btn btn-lg btn-success">Launch App</a>
+      <a href="https://app.voveo.ch" class="btn btn-lg btn-success">Run App Now</a>
       <p class="text-light">
         <small>alpha version</small>
       </p>
@@ -70,32 +70,15 @@
       <div class="col-md-12 text-center my-5">
         <h2 class="display-4">Solutions</h2>
       </div>
-      <div class="col-md-12 text-center mb-5">
-        <h2>Voveo in a nutshell</h2>
-      </div>
       <div class="col-md-4 col-12">
         <div class="card">
           <div class="card-body">
-            <h2 class="card-title text-center">
-              What
+            <h2 class="card-title">
+              Digital meetings
             </h2>
             <p>
-              Voveo is a blockchain based voting tool including a video conferencing platform that 
-              enables to run annual general meetings (AGM) or other types of assemblies and meetings.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-12">
-        <div class="card">
-          <div class="card-body">
-            <h2 class="card-title text-center">
-              How
-            </h2>
-            <p>
-              Combining the existing digital means and the blockchain technology, Voveo provides a simple, 
-              secure and anonymous way to vote or make decisions. By storing the polling result on the Ethereum 
-              blockchain, Voveo ensures its immutability from everyone including us and its accessibility to all.
+              Voveo is a blockchain based voting tool for annual general meetings (AGM) and other types of assemblies or
+              meetings.
             </p>
           </div>
         </div>
@@ -103,71 +86,24 @@
       <div class="col-md-4 col-12">
         <div class="card">
           <div class="card-body">
-            <h2 class="card-title text-center">
-              Why
+            <h2 class="card-title">
+              Quick & Simple
             </h2>
             <p>
-              We believe that everyone has the universal right to participate in decisions-making anywhere and 
-              anytime without compromising his security and identity.
+              Voveo runs on any device: desktop, tablet and mobile phones (iOS & Android). Set up your event with a few
+              clicks and accredit participants with personalized invitation codes.
             </p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="row my-5">
-      <div class="col-md-12 text-center mb-5">
-        <h2>How does it work?</h2>
-      </div>
-      <div class="col-md-6">
+      <div class="col-md-4 col-12">
         <div class="card">
           <div class="card-body">
-            <h2 class="card-title text-center">
-              As an organizer
+            <h2 class="card-title">
+              Secure
             </h2>
-            <hr />
-            <p class="card-text">
-              1)	Set up your event in a few clicks
-            </p>
-            <hr />
-            <p class="card-text">
-              2)	Upload documents to share with the participants
-            </p>
-            <hr />
-            <p class="card-text">
-              3)	Accredit participants with personalized invitation codes
-            </p>
-            <hr />
-            <p class="card-text">
-              4)	Run your assembly and ask people to vote
-            </p>
-            <hr />
-            <p class="card-text">
-              5)	Automatic storage of polling results on the Ethereum blockchain
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-body">
-            <h2 class="card-title text-center">
-              As an participant
-            </h2>
-            <hr />
-            <p class="card-text">
-              1)	Register with invitation code
-            </p>
-            <hr />
-            <p class="card-text">
-              2)	Access to uploaded documents
-            </p>
-            <hr />
-            <p class="card-text">
-              3)	Anonymous voting on the different topics
-            </p>
-            <hr />
-            <p class="card-text">
-              4)	Control opportunity of the authenticity of polling results
+            <p>
+              All polling is stored on the Ethereum blockchain - one of the most secure and immutable database.
             </p>
           </div>
         </div>
@@ -342,7 +278,7 @@
             <p>
               <h3>Chat</h3>
 
-              We offer video and text chat (integrated in Jitsi). This is seperated from the voting, which means that
+              We offer video and text chat (integrated in Jitsi). This is separated from the voting, which means that
               you
               can identify yourself on the video but still are private (aka pseudonymous) when you vote.
             </p>
@@ -358,9 +294,8 @@
             <hr />
             <p>
               <h3>Storage</h3>
-
-              Stored on the blockchain forever and immutable. Since all data is on the blockchain, there is no
-              need to keep a record on our your server.
+              The voting results are stored on the blockchain which ensures its immutability. Since all data is 
+              on the blockchain, there is no need to keep a record on our your server.
             </p>
           </div>
         </div>
@@ -421,14 +356,14 @@
             <p>
               <h3>Stay anonymous</h3>
 
-              You decide whether you want to user personalized data or not. Of course, we accept crypto currencies
+              You decide whether you want to use personalized data or not. Of course, we accept crypto currencies
               (Bitcoin
               and Ether) for payments.
             </p>
             <hr />
             <p>
               <h3>More to come</h3>
-              Are you missing something? Is there a feature you require? Feel free to ask.
+              Are we missing something? Is there any special features you need? Feel free to ask.
             </p>
             <hr />
             <p>
@@ -606,6 +541,54 @@
         <p>
         </p>
       </div>
+      <div class="col-md-4 text-center">
+        <img src="../img/team/charles.jpg" class="round m-2 mx-auto" width="200" />
+        <h4>Charles Milliet</h4>
+        <p>
+          Business Development
+        </p>
+        <p>
+          <a class="btn btn-success" href="https://www.linkedin.com/in/charles-milliet-b324ab133/">
+            Charles on LinkedIn
+          </a>
+        </p>
+        <p>
+        </p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="../img/team/roger.jpg" class="round m-2 mx-auto" width="200" />
+        <h4>Roger Peier</h4>
+        <p>
+          Technology
+        </p>
+        <p>
+          <a class="btn btn-success" href="https://www.linkedin.com/in/roger-peier-918392118/">
+            Roger on LinkedIn
+          </a>
+        </p>
+        <p>
+        </p>
+      </div>
+      <div class="col-md-12 text-center">
+        <h2 >Want to join Voveo</h2>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card mt-12">
+            <hr />
+            <p>
+              <h3>We are looking for someone</h3>
+              Do you have a strong interest in blockchain technology and its application? Do you know to program using Solidity or HPSS? 
+              Are you looking for a challenge in the application of blockchain technology? Then join the Voveo Team!
+            </p>
+            <p>
+              <h3>Your tasks</h3>
+              You will be working with a group of people from diverse background with a strong interest in cryptocurrencies, Finance 
+              and new technologies. You will mostly be working on the smart contracts. You are free to organize your tasks and you have 
+              the opportunity to work from home. We also welcome any new ideas to the project.
+              Still interested, then send us an email at simon.buechi@gmail.com to join the Voveo team.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="row">
@@ -623,7 +606,7 @@
   </div>
 
   <footer class="position-relative py-5 mt-5 bgFooter">
-    <div class="col-md-12 text-center pb-5">
+    <div class="col-md-12 text-center pb-5" style="display: none;">
       <p class="text-light">
         Follow us
       </p>
