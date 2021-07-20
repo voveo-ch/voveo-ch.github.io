@@ -183,6 +183,12 @@ body {
   /* change the direction of the change here */
 }
 
+.btn-light {
+  color: #00796b !important;
+
+}
+
+
 h1,
 h2 {
   font-family: "Basetica", Roboto;
